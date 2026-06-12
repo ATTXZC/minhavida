@@ -18,7 +18,7 @@ function GaleriaPage() {
   const photos = [
     {
       image: "/7.jpeg", 
-      caption: 'Nosso primeiro encontro especial, onde tudo começou',
+      caption: 'Uma das primera vezes, juntos em casa',
       alt: 'Foto do casal',
     },
     {
