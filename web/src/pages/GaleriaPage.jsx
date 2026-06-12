@@ -32,8 +32,8 @@ function GaleriaPage() {
       alt: 'Foto do casal',
     },
     {
-      image: null,
-      caption: 'Momentos de ternura que guardaremos para sempre',
+      image: "4.jpeg",
+      caption: 'Meu amor me dando cabelo pra cobrir minha calvíce, Te Amo!',
       alt: 'Foto do casal',
     },
     {
