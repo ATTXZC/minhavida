@@ -23,7 +23,7 @@ function GaleriaPage() {
     },
     {
       image: "/3.jpeg",
-      caption: 'Celebrando momentos de alegria e cumplicidade',
+      caption: 'Aprendendo Excel com minha gatinha',
       alt: 'Foto do casal',
     },
     {
