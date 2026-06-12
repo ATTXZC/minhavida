@@ -13,18 +13,9 @@ function PhotoCard({ image, caption, alt, index = 0 }) {
       className="group relative overflow-hidden rounded-2xl bg-card shadow-lg hover:shadow-xl transition-all duration-300"
     >
       <div className="aspect-[4/5] overflow-hidden">
-        {hasImage ? (
-          <img
-            src={image}
-            alt={alt || caption}
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-          />
-        ) : (
-          /*
-            ESPAÇO PARA FOTO:
-            Para colocar uma foto aqui, passe o caminho da imagem na prop "image".
-            Ex: { image: '/fotos/nossa-foto.jpg', caption: 'Nosso passeio' }
-            Coloque suas fotos na pasta "web/public/fotos".
+        {!hasImage ? (
+          /* ESPAÇO PARA FOTO (Placeholder):
+            Se não tiver imagem, cai aqui.
           */
           <div className="flex h-full w-full flex-col items-center justify-center gap-3 bg-gradient-to-br from-muted to-secondary/10 p-6 text-center">
             <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
@@ -34,14 +25,37 @@ function PhotoCard({ image, caption, alt, index = 0 }) {
               Espaço para nossa foto
             </p>
           </div>
+        ) : image.endsWith('.mp4') ? (
+          /* VÍDEO: 
+            Se tiver arquivo e for .mp4, cai aqui.
+          */
+          <video 
+            src={image} 
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            autoPlay 
+            loop 
+            muted 
+            playsInline
+          />
+        ) : (
+          /* IMAGEM: 
+            Se tiver arquivo e NÃO for .mp4, cai aqui.
+          */
+          <img
+            src={image}
+            alt={alt || caption}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          />
         )}
       </div>
+      
       {caption && (
         <div className="p-4 bg-gradient-to-t from-background/95 to-background/80 backdrop-blur-sm">
           <p className="text-sm font-medium text-center text-balance">{caption}</p>
         </div>
       )}
-      <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+      
+      <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
     </motion.div>
   );
 }
