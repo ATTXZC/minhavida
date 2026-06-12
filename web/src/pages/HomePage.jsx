@@ -167,7 +167,7 @@ function HomePage() {
                       </div>
                       <p className="font-display text-xl font-semibold">Nossa foto favorita</p>
                       <p className="text-sm text-muted-foreground">
-                        Espaço reservado para a foto de vocês
+                      <img src="/2.jpeg" alt="Meu amor" className="w-full h-full object-cover" />
                       </p>
                     </div>
                   </div>
