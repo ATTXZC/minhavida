@@ -27,8 +27,8 @@ function GaleriaPage() {
       alt: 'Foto do casal',
     },
     {
-      image: null,
-      caption: 'Aventuras compartilhadas que fortalecem nosso amor',
+      image: "/5.jpeg",
+      caption: 'Mais cria que isso, impossivel',
       alt: 'Foto do casal',
     },
     {
