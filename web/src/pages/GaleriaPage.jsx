@@ -39,12 +39,11 @@ function GaleriaPage() {
     {
       image: "/7.mp4",
       caption: 'Momento Excel',
-      Rotate3D: "rotate -90",
       alt: 'Foto do casal',
     },
     {
-      image: null,
-      caption: 'Para a Raquel, com todo o meu amor',
+      image: "/8.mp4",
+      caption: 'Momento Giga CHAD',
       alt: 'Foto do casal',
     },
   ];
