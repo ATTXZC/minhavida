@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import { Heart } from 'lucide-react';
+import { Heart, Rotate3D } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PhotoCard from '../components/PhotoCard';
@@ -39,6 +39,7 @@ function GaleriaPage() {
     {
       image: "/7.mp4",
       caption: 'Momento Excel',
+      Rotate3D: "rotate -90",
       alt: 'Foto do casal',
     },
     {
