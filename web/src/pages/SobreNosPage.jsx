@@ -152,8 +152,8 @@ function SobreNosPage() {
                     "O amor verdadeiro não é encontrado, é construído"
                   </blockquote>
                   <p className="text-lg leading-relaxed max-w-2xl">
-                    E nós estamos construindo algo lindo, dia após dia, momento após momento, 
-                    com dedicação, carinho e um amor que só cresce.
+                    E nós estamos construindo algo concreto, dia após dia, momento após momento, 
+                    com dedicação, carinho e um amor que só cresce. TE AMO!
                   </p>
                 </div>
               </motion.div>
