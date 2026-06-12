@@ -17,7 +17,7 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Para VocÊ</title>
+        <title>Feliz dia Dos Namorados!</title>
         <meta name="description" content="Um espaço dedicado ao nosso amor, memórias e momentos especiais compartilhados com a Raquel." />
       </Helmet>
 
