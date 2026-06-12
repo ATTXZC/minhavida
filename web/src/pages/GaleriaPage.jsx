@@ -6,7 +6,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PhotoCard from '../components/PhotoCard';
 import DecorativeElements from '../components/DecorativeElements';
-import op from "web/public/1.jpeg";
 
 function GaleriaPage() {
   /*
@@ -18,7 +17,7 @@ function GaleriaPage() {
   */
   const photos = [
     {
-      image: op,
+      image: "/1.jpeg", 
       caption: 'Nosso primeiro encontro especial, onde tudo começou',
       alt: 'Foto do casal',
     },
