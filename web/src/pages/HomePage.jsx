@@ -56,12 +56,12 @@ function HomePage() {
                 </p>
 
                 <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-balance" style={{ letterSpacing: '-0.02em' }}>
-                  Para a Raquel, meu amor
+                  Para Você, meu amor
                 </h1>
                 
                 <p className="text-xl md:text-2xl text-white/95 mb-8 max-w-2xl mx-auto leading-relaxed">
                   Cada momento ao seu lado é uma página especial na história do nosso amor. 
-                  Este cantinho é só nosso, Raquel: feito com carinho para celebrar tudo o que vivemos juntos.
+                  Este cantinho é só nosso, feito com carinho para celebrar tudo o que vivemos juntos.
                 </p>
 
                 <motion.div
