@@ -165,9 +165,9 @@ function HomePage() {
                       <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/15">
                         <ImagePlus className="text-primary" size={36} />
                       </div>
+                      <img src="/2.jpeg" alt="Meu amor" className="w-full h-full object-cover" />
                       <p className="font-display text-xl font-semibold">Nossa foto favorita</p>
                       <p className="text-sm text-muted-foreground">
-                      <img src="/2.jpeg" alt="Meu amor" className="w-full h-full object-cover" />
                       </p>
                     </div>
                   </div>
