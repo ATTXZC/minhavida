@@ -164,7 +164,7 @@ function HomePage() {
                     <div className="flex h-full w-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-primary/10 via-muted to-secondary/10 p-8 text-center">
                       <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/15">
                       </div>
-                      <img src="/2.jpeg" alt="Meu amor" className="w-full h-full object-cover" />
+                      <img src="/2.jpeg" alt="Meu amor" className="w-full h-full object-cover border-4 border-pink-200 rounded-xl" />
                       <p className="font-display text-xl font-semibold">Nossa foto favorita</p>
                       <p className="text-sm text-muted-foreground">
                       </p>
