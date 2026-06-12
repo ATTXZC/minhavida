@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { ImagePlus } from 'lucide-react';
 
-function PhotoCard({ image, caption, alt, index = 0 }) {
+function PhotoCard({ image, caption, alt, index = 0, rotate = "" }) {
   const hasImage = Boolean(image);
 
   return (
@@ -31,7 +31,7 @@ function PhotoCard({ image, caption, alt, index = 0 }) {
           */
           <video 
             src={image} 
-            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 ${rotate}"
             autoPlay
             controls 
             loop 

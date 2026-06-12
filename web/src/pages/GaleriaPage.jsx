@@ -40,7 +40,6 @@ function GaleriaPage() {
       image: "/7.mp4",
       caption: 'Momento Excel',
       alt: 'Foto do casal',
-      rotate: 'rotate-90',
     },
     {
       image: null,
