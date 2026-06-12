@@ -34,7 +34,8 @@ function PhotoCard({ image, caption, alt, index = 0, rotate = "" }) {
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110 ${rotate}"
             autoPlay
             controls 
-            loop 
+            loop
+            rotate 
             muted 
             playsInline
           />
