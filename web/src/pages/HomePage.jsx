@@ -109,7 +109,7 @@ function HomePage() {
                   Nossa História de Amor
                 </h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                  Descubra os momentos que tornaram nossa jornada tão especial
+                  Nossos momentos epeciais
                 </p>
               </motion.div>
 
@@ -130,7 +130,7 @@ function HomePage() {
                     </div>
                     <p className="leading-relaxed">
                       Cada fotografia em nossa galeria conta uma história única. Momentos de alegria, 
-                      cumplicidade e amor verdadeiro capturados para sempre.
+                      cumplicidade e amor verdadeiro só ao seu lado.
                     </p>
                   </div>
 
@@ -142,8 +142,7 @@ function HomePage() {
                       <h3 className="font-display text-2xl font-semibold">Palavras do Coração</h3>
                     </div>
                     <p className="leading-relaxed">
-                      Mensagens românticas, poemas e declarações que expressam a profundidade 
-                      do nosso sentimento. Palavras que tocam a alma.
+                      Te muito meu minha vida, quando te vi pela primeira vez, já sabia que você seria a mulher da minha vida, seu sorriso, seu brilho me conquistou.
                     </p>
                   </div>
                 </motion.div>
