@@ -48,8 +48,8 @@ function SobreNosPage() {
           <section className="relative min-h-[60vh] flex items-center justify-center overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img
-                src="https://images.unsplash.com/photo-1518755843980-e722798655ba"
-                alt="Casal apaixonado"
+                src="/fundo-romantico.png"
+                alt="Fundo romântico com corações"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-primary/70 via-primary/50 to-secondary/60" />
@@ -88,7 +88,7 @@ function SobreNosPage() {
                 </div>
                 <div className="space-y-4 text-lg leading-relaxed">
                   <p>
-                    Nossa história começou de uma forma mágica e inesperada. Quando nossos caminhos se cruzaram, 
+                    Raquel, nossa história começou de uma forma mágica e inesperada. Quando nossos caminhos se cruzaram, 
                     foi como se o universo conspirasse para nos unir. Desde o primeiro olhar, soubemos que 
                     algo especial estava acontecendo.
                   </p>

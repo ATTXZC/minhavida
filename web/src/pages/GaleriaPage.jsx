@@ -8,26 +8,43 @@ import PhotoCard from '../components/PhotoCard';
 import DecorativeElements from '../components/DecorativeElements';
 
 function GaleriaPage() {
+  /*
+    COMO ADICIONAR SUAS FOTOS:
+    1. Coloque os arquivos de imagem na pasta "web/public/fotos".
+    2. Preencha o campo "image" com o caminho, ex: image: '/fotos/praia.jpg'.
+    3. Deixe "image" como null para manter o espaço reservado (placeholder).
+    Você pode adicionar quantas fotos quiser à lista abaixo.
+  */
   const photos = [
     {
-      image: 'https://images.unsplash.com/photo-1696282531662-97a6471050f0',
+      image: null,
       caption: 'Nosso primeiro encontro especial, onde tudo começou',
-      alt: 'Casal apaixonado em momento romântico',
+      alt: 'Foto do casal',
     },
     {
-      image: 'https://images.unsplash.com/photo-1663708223501-f52ff7876fcb',
+      image: null,
       caption: 'Celebrando momentos de alegria e cumplicidade',
-      alt: 'Casal feliz celebrando juntos',
+      alt: 'Foto do casal',
     },
     {
-      image: 'https://images.unsplash.com/photo-1644745547471-6452aa04fb38',
+      image: null,
       caption: 'Aventuras compartilhadas que fortalecem nosso amor',
-      alt: 'Casal em aventura romântica',
+      alt: 'Foto do casal',
     },
     {
-      image: 'https://images.unsplash.com/photo-1581686059775-103bec074fac',
+      image: null,
       caption: 'Momentos de ternura que guardaremos para sempre',
-      alt: 'Momento terno entre o casal',
+      alt: 'Foto do casal',
+    },
+    {
+      image: null,
+      caption: 'Sorrisos que iluminam os meus dias',
+      alt: 'Foto do casal',
+    },
+    {
+      image: null,
+      caption: 'Para a Raquel, com todo o meu amor',
+      alt: 'Foto do casal',
     },
   ];
 
