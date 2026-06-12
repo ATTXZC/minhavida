@@ -32,6 +32,11 @@ function HomePage() {
                 alt="Fundo romântico com corações"
                 className="w-full h-full object-cover"
               />
+               <img
+                src="/1.jpeg"
+                alt="Fundo romântico com corações"
+                className="w-full h-full object-cover"
+              />
               <div className="absolute inset-0 bg-gradient-to-br from-primary/80 via-primary/60 to-secondary/70" />
             </div>
 
