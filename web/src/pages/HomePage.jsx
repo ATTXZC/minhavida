@@ -165,12 +165,12 @@ function HomePage() {
                       <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/15">
                         <ImagePlus className="text-primary" size={36} />
                       </div>
+                      <img src="/2.jpeg" alt="Meu amor" className="w-full h-full object-cover" />
                       <p className="font-display text-xl font-semibold">Nossa foto favorita</p>
                       <p className="text-sm text-muted-foreground">
                       </p>
                     </div>
                   </div>
-                      <img src="/2.jpeg" alt="Meu amor" className="w-full h-full object-cover" />
                   <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
                   <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary/20 rounded-full blur-3xl" />
                 </motion.div>
