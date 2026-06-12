@@ -17,7 +17,7 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Para a Raquel - Feliz Dia dos Namorados</title>
+        <title>Para a Raquel - Feiohfguihrtipgu</title>
         <meta name="description" content="Um espaço dedicado ao nosso amor, memórias e momentos especiais compartilhados com a Raquel." />
       </Helmet>
 
