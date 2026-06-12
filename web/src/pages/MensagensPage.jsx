@@ -19,18 +19,18 @@ function MensagensPage() {
 
   const defaultMessages = [
     {
-      title: 'Amor Eterno',
-      message: 'Você é a razão do meu sorriso, a luz dos meus dias e a paz das minhas noites. Cada momento ao seu lado é um presente que guardo no coração. Te amo hoje, amanhã e sempre.',
-      author: 'Com todo meu amor',
+      title: 'Para a minha Raquel',
+      message: 'Você é a razão do meu sorriso, a luz dos meus dias e a paz das minhas noites. Cada momento ao seu lado é um presente que guardo no coração. Te amo hoje, amanhã e sempre, Raquel.',
+      author: 'Com todo o meu amor',
     },
     {
-      title: 'Promessa de Amor',
-      message: 'Prometo estar ao seu lado em todos os momentos, celebrar suas vitórias, apoiar seus sonhos e amar você incondicionalmente. Você é meu para sempre.',
+      title: 'Minha Promessa',
+      message: 'Prometo estar ao seu lado em todos os momentos, celebrar suas vitórias, apoiar seus sonhos e amar você incondicionalmente. Você é minha para sempre, Raquel.',
       author: 'Seu amor eterno',
     },
     {
       title: 'Gratidão',
-      message: 'Agradeço todos os dias por ter você na minha vida. Você me completa de uma forma que eu nem sabia ser possível. Obrigado por ser meu amor, meu amigo, minha inspiração.',
+      message: 'Agradeço todos os dias por ter você na minha vida, Raquel. Você me completa de uma forma que eu nem sabia ser possível. Obrigado por ser meu amor, minha melhor amiga, minha inspiração.',
       author: 'Com carinho',
     },
   ];

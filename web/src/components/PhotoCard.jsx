@@ -1,7 +1,10 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { ImagePlus } from 'lucide-react';
 
 function PhotoCard({ image, caption, alt, index = 0 }) {
+  const hasImage = Boolean(image);
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -10,11 +13,28 @@ function PhotoCard({ image, caption, alt, index = 0 }) {
       className="group relative overflow-hidden rounded-2xl bg-card shadow-lg hover:shadow-xl transition-all duration-300"
     >
       <div className="aspect-[4/5] overflow-hidden">
-        <img
-          src={image}
-          alt={alt || caption}
-          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-        />
+        {hasImage ? (
+          <img
+            src={image}
+            alt={alt || caption}
+            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+          />
+        ) : (
+          /*
+            ESPAÇO PARA FOTO:
+            Para colocar uma foto aqui, passe o caminho da imagem na prop "image".
+            Ex: { image: '/fotos/nossa-foto.jpg', caption: 'Nosso passeio' }
+            Coloque suas fotos na pasta "web/public/fotos".
+          */
+          <div className="flex h-full w-full flex-col items-center justify-center gap-3 bg-gradient-to-br from-muted to-secondary/10 p-6 text-center">
+            <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary/10">
+              <ImagePlus className="text-primary" size={28} />
+            </div>
+            <p className="text-sm font-medium text-muted-foreground">
+              Espaço para nossa foto
+            </p>
+          </div>
+        )}
       </div>
       {caption && (
         <div className="p-4 bg-gradient-to-t from-background/95 to-background/80 backdrop-blur-sm">

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Heart, ArrowRight, Sparkles } from 'lucide-react';
+import { Heart, ArrowRight, Sparkles, ImagePlus } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import DecorativeElements from '../components/DecorativeElements';
@@ -17,8 +17,8 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Nosso Amor - Celebrando momentos especiais juntos</title>
-        <meta name="description" content="Um espaço dedicado ao nosso amor, memórias e momentos especiais compartilhados." />
+        <title>Para a Raquel - Feliz Dia dos Namorados</title>
+        <meta name="description" content="Um espaço dedicado ao nosso amor, memórias e momentos especiais compartilhados com a Raquel." />
       </Helmet>
 
       <div className="min-h-screen flex flex-col">
@@ -28,8 +28,8 @@ function HomePage() {
           <section className="relative min-h-[100dvh] flex items-center justify-center overflow-hidden">
             <div className="absolute inset-0 z-0">
               <img
-                src="https://horizons-cdn.hostinger.com/33a5b430-f9c6-4ed1-9393-b22acfe8eedd/c93f4169a3fd342980965e03a5e6a05b.jpg"
-                alt="Romantic background"
+                src="/fundo-romantico.png"
+                alt="Fundo romântico com corações"
                 className="w-full h-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-primary/80 via-primary/60 to-secondary/70" />
@@ -46,13 +46,17 @@ function HomePage() {
               >
                 <Heart className="mx-auto mb-6 text-white animate-heart-beat" size={64} fill="currentColor" />
                 
+                <p className="text-base md:text-lg font-medium uppercase tracking-[0.3em] text-white/80 mb-4">
+                  Feliz Dia dos Namorados
+                </p>
+
                 <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-balance" style={{ letterSpacing: '-0.02em' }}>
-                  Nosso Amor Eterno
+                  Para a Raquel, meu amor
                 </h1>
                 
                 <p className="text-xl md:text-2xl text-white/95 mb-8 max-w-2xl mx-auto leading-relaxed">
                   Cada momento ao seu lado é uma página especial na história do nosso amor. 
-                  Celebrando memórias, criando sonhos e vivendo intensamente juntos.
+                  Este cantinho é só nosso, Raquel: feito com carinho para celebrar tudo o que vivemos juntos.
                 </p>
 
                 <motion.div
@@ -147,11 +151,21 @@ function HomePage() {
                   className="relative"
                 >
                   <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
-                    <img
-                      src="https://images.unsplash.com/photo-1696282531662-97a6471050f0"
-                      alt="Casal apaixonado"
-                      className="w-full h-full object-cover"
-                    />
+                    {/*
+                      ESPAÇO PARA FOTO PRINCIPAL:
+                      Coloque uma foto de vocês na pasta "web/public/fotos" e
+                      troque o bloco abaixo por:
+                      <img src="/fotos/sua-foto.jpg" alt="Eu e a Raquel" className="w-full h-full object-cover" />
+                    */}
+                    <div className="flex h-full w-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-primary/10 via-muted to-secondary/10 p-8 text-center">
+                      <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/15">
+                        <ImagePlus className="text-primary" size={36} />
+                      </div>
+                      <p className="font-display text-xl font-semibold">Nossa foto favorita</p>
+                      <p className="text-sm text-muted-foreground">
+                        Espaço reservado para a foto de vocês
+                      </p>
+                    </div>
                   </div>
                   <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
                   <div className="absolute -top-6 -left-6 w-32 h-32 bg-primary/20 rounded-full blur-3xl" />
