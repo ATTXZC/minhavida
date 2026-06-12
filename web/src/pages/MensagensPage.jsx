@@ -30,7 +30,7 @@ function MensagensPage() {
     },
     {
       title: 'Gratidão',
-      message: 'Agradeço todos os dias a Deus, por ter você na minha vida. Você me completa de uma forma que eu nem sabia ser possível. Obrigado por ser meu amor, minha melhor companheira, minha inspiração, miha razão.',
+      message: 'Agradeço todos os dias a Deus, por ter você na minha vida. Você me completa de uma forma que eu nem sabia ser possível. Obrigado por ser meu amor, minha melhor companheira, minha inspiração, minha razão.',
       author: 'Com carinho',
     },
   ];
