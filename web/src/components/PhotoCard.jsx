@@ -32,7 +32,8 @@ function PhotoCard({ image, caption, alt, index = 0 }) {
           <video 
             src={image} 
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-            autoPlay 
+            autoPlay
+            controls 
             loop 
             muted 
             playsInline
