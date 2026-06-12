@@ -1,7 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import { motion } from 'framer-motion';
-import { Heart } from 'lucide-react';
+import { Heart, Rotate3D } from 'lucide-react';
 import Header from '../components/Header';
 import Footer from '../components/Footer';
 import PhotoCard from '../components/PhotoCard';
@@ -17,33 +17,33 @@ function GaleriaPage() {
   */
   const photos = [
     {
-      image: null,
-      caption: 'Nosso primeiro encontro especial, onde tudo começou',
+      image: "/7.jpeg", 
+      caption: 'Uma das primera vezes, juntos em casa',
       alt: 'Foto do casal',
     },
     {
-      image: null,
-      caption: 'Celebrando momentos de alegria e cumplicidade',
+      image: "/3.jpeg",
+      caption: 'Aprendendo Excel com minha gatinha',
       alt: 'Foto do casal',
     },
     {
-      image: null,
-      caption: 'Aventuras compartilhadas que fortalecem nosso amor',
+      image: "/5.jpeg",
+      caption: 'Mais cria que isso, impossivel',
       alt: 'Foto do casal',
     },
     {
-      image: null,
-      caption: 'Momentos de ternura que guardaremos para sempre',
+      image: "/4.jpeg",
+      caption: 'Meu amor me dando cabelo pra cobrir minha calvíce, Te Amo!',
       alt: 'Foto do casal',
     },
     {
-      image: null,
-      caption: 'Sorrisos que iluminam os meus dias',
+      image: "/7.mp4",
+      caption: 'Momento Excel',
       alt: 'Foto do casal',
     },
     {
-      image: null,
-      caption: 'Para a Raquel, com todo o meu amor',
+      image: "/8.mp4",
+      caption: 'Momento Giga CHAD',
       alt: 'Foto do casal',
     },
   ];

@@ -9,22 +9,16 @@ import DecorativeElements from '../components/DecorativeElements';
 function SobreNosPage() {
   const milestones = [
     {
-      date: 'Janeiro 2024',
-      title: 'Nosso Primeiro Encontro',
+      date: '26 de Março de 2026',
+      title: 'Nosso Primeiro Encontro no Shopping da Bahia',
       description: 'O dia em que nossos olhares se cruzaram e soubemos que algo especial estava começando.',
       icon: Heart,
     },
     {
-      date: 'Março 2024',
-      title: 'Primeira Viagem Juntos',
-      description: 'Exploramos novos lugares e criamos memórias inesquecíveis lado a lado.',
+      date: '30 de Abril de 2026',
+      title: 'Primeira vez que vocs aqui em casa',
+      description: 'Esse dia foi especial e divertido, o dia que te apresentei a minha familia e o nosso amor só aumentava.',
       icon: MapPin,
-    },
-    {
-      date: 'Junho 2024',
-      title: 'Declaração de Amor',
-      description: 'O momento em que expressamos nossos sentimentos mais profundos um pelo outro.',
-      icon: Sparkles,
     },
     {
       date: 'Presente',
@@ -88,9 +82,7 @@ function SobreNosPage() {
                 </div>
                 <div className="space-y-4 text-lg leading-relaxed">
                   <p>
-                    Raquel, nossa história começou de uma forma mágica e inesperada. Quando nossos caminhos se cruzaram, 
-                    foi como se o universo conspirasse para nos unir. Desde o primeiro olhar, soubemos que 
-                    algo especial estava acontecendo.
+                    Raquel, nossa história começou de uma forma inesperada, no meio de uma sala de aula, se vendo todo os dias, até que você me chamou (parecendo que tava chamando um cacorro kkkkkkkkk) "Ei Ei vem cá", dai foi o ponto de partida para o nosso amor, todos os dias fazia questão de caminha contigo pela Ribeira, cada canto foi uma experiência incrivel, e cada momento com você, percebia que estava andando ao lado de uma joia rara, uma princesa do meus sonhos.
                   </p>
                   <p>
                     Com o passar do tempo, descobrimos que compartilhávamos não apenas interesses e sonhos, 
@@ -160,8 +152,8 @@ function SobreNosPage() {
                     "O amor verdadeiro não é encontrado, é construído"
                   </blockquote>
                   <p className="text-lg leading-relaxed max-w-2xl">
-                    E nós estamos construindo algo lindo, dia após dia, momento após momento, 
-                    com dedicação, carinho e um amor que só cresce.
+                    E nós estamos construindo algo concreto, dia após dia, momento após momento, 
+                    com dedicação, carinho e um amor que só cresce. TE AMO!
                   </p>
                 </div>
               </motion.div>

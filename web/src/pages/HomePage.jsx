@@ -17,7 +17,7 @@ function HomePage() {
   return (
     <>
       <Helmet>
-        <title>Para a Raquel - Feiohfguihrtipgu</title>
+        <title>Feliz dia Dos Namorados!</title>
         <meta name="description" content="Um espaço dedicado ao nosso amor, memórias e momentos especiais compartilhados com a Raquel." />
       </Helmet>
 
@@ -30,7 +30,12 @@ function HomePage() {
               <img
                 src="/fundo-romantico.png"
                 alt="Fundo romântico com corações"
-                className="w-full h-full object-cover"
+                className="absolute inset-0 w-full h-full object-cover"
+              />
+               <img
+                src="/1.jpeg"
+                alt="Nossa foto"
+                className="absolute inset-0 w-full h-full object-cover opacity-200"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-primary/80 via-primary/60 to-secondary/70" />
             </div>
@@ -51,12 +56,12 @@ function HomePage() {
                 </p>
 
                 <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-bold text-white mb-6 text-balance" style={{ letterSpacing: '-0.02em' }}>
-                  Para a Raquel, meu amor
+                  Para Você, meu amor
                 </h1>
                 
                 <p className="text-xl md:text-2xl text-white/95 mb-8 max-w-2xl mx-auto leading-relaxed">
                   Cada momento ao seu lado é uma página especial na história do nosso amor. 
-                  Este cantinho é só nosso, Raquel: feito com carinho para celebrar tudo o que vivemos juntos.
+                  Este cantinho é só nosso, feito com carinho para celebrar tudo o que vivemos juntos.
                 </p>
 
                 <motion.div
@@ -104,7 +109,7 @@ function HomePage() {
                   Nossa História de Amor
                 </h2>
                 <p className="text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                  Descubra os momentos que tornaram nossa jornada tão especial
+                  Nossos momentos epeciais
                 </p>
               </motion.div>
 
@@ -125,7 +130,7 @@ function HomePage() {
                     </div>
                     <p className="leading-relaxed">
                       Cada fotografia em nossa galeria conta uma história única. Momentos de alegria, 
-                      cumplicidade e amor verdadeiro capturados para sempre.
+                      cumplicidade e amor verdadeiro só ao seu lado.
                     </p>
                   </div>
 
@@ -137,8 +142,7 @@ function HomePage() {
                       <h3 className="font-display text-2xl font-semibold">Palavras do Coração</h3>
                     </div>
                     <p className="leading-relaxed">
-                      Mensagens românticas, poemas e declarações que expressam a profundidade 
-                      do nosso sentimento. Palavras que tocam a alma.
+                      Te muito meu minha vida, quando te vi pela primeira vez, já sabia que você seria a mulher da minha vida, seu sorriso, seu brilho me conquistou.
                     </p>
                   </div>
                 </motion.div>
@@ -159,11 +163,10 @@ function HomePage() {
                     */}
                     <div className="flex h-full w-full flex-col items-center justify-center gap-4 bg-gradient-to-br from-primary/10 via-muted to-secondary/10 p-8 text-center">
                       <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/15">
-                        <ImagePlus className="text-primary" size={36} />
                       </div>
-                      <p className="font-display text-xl font-semibold">Nossa foto favorita</p>
+                      <img src="/2.jpeg" alt="Meu amor" className="w-full h-full object-cover border-4 border-pink-200 rounded-xl" />
+                      <p className="font-display text-xl font-semibold">Minha Vida</p>
                       <p className="text-sm text-muted-foreground">
-                        Espaço reservado para a foto de vocês
                       </p>
                     </div>
                   </div>

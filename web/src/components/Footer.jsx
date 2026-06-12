@@ -14,16 +14,6 @@ function Footer() {
             <span className="font-display text-xl font-semibold">Para Minha Princesa</span>
           </div>
           
-          <div className="flex flex-wrap items-center justify-center gap-6 text-sm">
-            <a href="#" className="hover:text-primary transition-colors duration-200">
-              Política de Privacidade
-            </a>
-            <span className="text-muted-foreground">•</span>
-            <a href="#" className="hover:text-primary transition-colors duration-200">
-              Termos de Uso
-            </a>
-          </div>
-          
           <p className="text-sm text-center">
             © {new Date().getFullYear()} Feito com <Heart className="inline text-primary" size={14} fill="currentColor" /> para celebrar nosso amor
           </p>
