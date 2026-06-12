@@ -165,7 +165,7 @@ function HomePage() {
                       <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/15">
                       </div>
                       <img src="/2.jpeg" alt="Meu amor" className="w-full h-full object-cover border-4 border-pink-200 rounded-xl" />
-                      <DecorativeElements variant="cats" count={12} className="absolute inset-0 z-10" />
+                     <DecorativeElements variant="sparkles" count={8} className="absolute inset-0 z-10" />
                       <p className="text-sm text-muted-foreground">
                       </p>
                     </div>
