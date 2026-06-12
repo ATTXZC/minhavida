@@ -88,9 +88,7 @@ function SobreNosPage() {
                 </div>
                 <div className="space-y-4 text-lg leading-relaxed">
                   <p>
-                    Raquel, nossa história começou de uma forma mágica e inesperada. Quando nossos caminhos se cruzaram, 
-                    foi como se o universo conspirasse para nos unir. Desde o primeiro olhar, soubemos que 
-                    algo especial estava acontecendo.
+                    Raquel, nossa história começou de uma forma inesperada, no meio de uma sala de aula, se vendo todo os dias, até que você me chamou (parecendo que tava chamando um cacorro kkkkkkkkk) "Ei Ei vem cá", dai foi o ponto de partida para o nosso amor, todos os dias fazia questão de caminha contigo pela Ribeira, cada canto foi uma experiência incrivel, e cada momento com você, percebia que estava andando ao lado de uma joia rara, uma princesa do meus sonhos.
                   </p>
                   <p>
                     Com o passar do tempo, descobrimos que compartilhávamos não apenas interesses e sonhos, 
