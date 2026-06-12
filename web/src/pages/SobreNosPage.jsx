@@ -9,22 +9,16 @@ import DecorativeElements from '../components/DecorativeElements';
 function SobreNosPage() {
   const milestones = [
     {
-      date: 'Janeiro 2024',
-      title: 'Nosso Primeiro Encontro',
+      date: '26 de Março de 2026',
+      title: 'Nosso Primeiro Encontro no Shopping da Bahia',
       description: 'O dia em que nossos olhares se cruzaram e soubemos que algo especial estava começando.',
       icon: Heart,
     },
     {
-      date: 'Março 2024',
-      title: 'Primeira Viagem Juntos',
-      description: 'Exploramos novos lugares e criamos memórias inesquecíveis lado a lado.',
+      date: '30 de Abril de 2026',
+      title: 'Primeira vez que vocs aqui em casa',
+      description: 'Esse dia foi especial e divertido, o dia que te apresentei a minha familia e o nosso amor só aumentava.',
       icon: MapPin,
-    },
-    {
-      date: 'Junho 2024',
-      title: 'Declaração de Amor',
-      description: 'O momento em que expressamos nossos sentimentos mais profundos um pelo outro.',
-      icon: Sparkles,
     },
     {
       date: 'Presente',
