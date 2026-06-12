@@ -22,7 +22,7 @@ function GaleriaPage() {
       alt: 'Foto do casal',
     },
     {
-      image: nullçl,
+      image: "/3.jpeg",
       caption: 'Celebrando momentos de alegria e cumplicidade',
       alt: 'Foto do casal',
     },
