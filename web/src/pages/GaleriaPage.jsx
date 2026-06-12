@@ -32,13 +32,13 @@ function GaleriaPage() {
       alt: 'Foto do casal',
     },
     {
-      image: "4.jpeg",
+      image: "/4.jpeg",
       caption: 'Meu amor me dando cabelo pra cobrir minha calvíce, Te Amo!',
       alt: 'Foto do casal',
     },
     {
-      image: null,
-      caption: 'Sorrisos que iluminam os meus dias',
+      image: "/7.mp4",
+      caption: 'Momento Excel',
       alt: 'Foto do casal',
     },
     {
