@@ -35,7 +35,7 @@ function HomePage() {
                <img
                 src="/1.jpeg"
                 alt="Nossa foto"
-                className="absolute inset-0 w-full h-full object-cover opacity-50"
+                className="absolute inset-0 w-full h-full object-cover opacity-200"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-primary/80 via-primary/60 to-secondary/70" />
             </div>
